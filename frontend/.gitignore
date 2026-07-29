@@ -1,0 +1,17 @@
+# ── Variables de entorno / configuración local ──────────────
+.env
+.env.*
+!.env.example
+
+# ── Dependencias (si en algún momento usas npm/vite/etc.) ───
+node_modules/
+
+# ── Build / dist ──────────────────────────────────────────────
+dist/
+build/
+
+# ── Sistema operativo / editor ───────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
